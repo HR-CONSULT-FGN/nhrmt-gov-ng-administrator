@@ -31,7 +31,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `tbluser` (
   `ID` int(10) NOT NULL,
   `FullName` varchar(200) DEFAULT NULL,
-  `MobileNumber` bigint(10) DEFAULT NULL,
+  `MobileNumber` bigint(14) DEFAULT NULL,
   `Email` varchar(200) DEFAULT NULL,
   `Password` varchar(200) DEFAULT NULL,
   `RegDate` timestamp NULL DEFAULT current_timestamp()
