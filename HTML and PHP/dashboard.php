@@ -47,7 +47,14 @@ $name=$row['FullName'];
 ?>
                     <h4 style="color: blue; text-align: center;">Welcome !! <?php echo $name;?></h4>
                   
-                  <div> Here we go............</div>
+                 <div> 
+                        <p style="color: Green; text-align: center;">Pay a Maximum of NGN1,599 (One Thousand Five Hundred and Ninety Nine Naira Only) as your competitive fee. </p>
+                        <a href="registry.htm"> 
+                            <p style="color: blue; text-align: center">PLEASE CLICK HERE TO PROCEED</p>
+                            
+                        </a>
+                        
+                    </div>
                           
                 </div>
            
